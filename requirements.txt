@@ -1,0 +1,11 @@
+pandas
+requests
+requests-html
+requests-toolbelt
+numpy
+bs4
+apache-airflow
+PyGithub
+pymongo
+overpy
+python-dotenv

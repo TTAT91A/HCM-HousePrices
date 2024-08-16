@@ -71,7 +71,7 @@ if __name__ == '__main__':
     dags_folder = os.path.dirname(folder_path)
 
     house_info_name = f"house_info({today}).csv"
-    house_info_path = "dags/RawData/HousesInfo" + house_info_name
+    house_info_path = "dags/RawData/HouseInfo" + house_info_name
 
     all_files_github = get_all_files(repo_name=REPO_NAME)
     if house_info_path in all_files_github:
